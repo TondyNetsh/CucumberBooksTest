@@ -44,11 +44,6 @@ public class StepDefinitions {
         Thread.sleep(1000);
     }
 
-    @Then("^User will see a list of books$")
-    public void user_will_see_a_list_of_books() throws Throwable {
-        System.out.println(driver.getTitle());
-    }
-
     @Then("^User clicks on a book name$")
     public void user_clicks_on_a_book_name() throws Throwable {
         JavascriptExecutor jsScroll = ((JavascriptExecutor) driver);
